@@ -1,17 +1,5 @@
 @extends('app')
-
-@section('title')
-<<<<<<< HEAD
-<<<<<<< HEAD
-Pembayaran | Repair.Inch
-=======
-Pembayaran | Repair-Inch
->>>>>>> yusuf_1202184304
-=======
-Pembayaran | Repair-Inc
->>>>>>> yusuf_1202184304
-@endsection
-
+@section('title','Pembayaran | Repair-Inc')
 @section('content')
 @foreach($pesanan as $ps)
 <div class="page-section section mt-90 mb-90">

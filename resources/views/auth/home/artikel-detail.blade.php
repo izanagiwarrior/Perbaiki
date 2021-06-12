@@ -1,16 +1,6 @@
 @extends('app')
-
-@section('title')
 @foreach($artikel as $ar)
-<<<<<<< HEAD
-<<<<<<< HEAD
-{{ $ar->judul }} | Repair.Inch
-=======
-{{ $ar->judul }} | Repair-Inch
->>>>>>> yusuf_1202184304
-=======
-{{ $ar->judul }} | Repair-Inc
->>>>>>> yusuf_1202184304
+@section('title','{{ $ar->judul }} | Repair-Inc')
 @endforeach
 @endsection
 

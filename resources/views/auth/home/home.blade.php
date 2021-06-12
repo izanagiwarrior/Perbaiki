@@ -1,15 +1,5 @@
 @extends('app')
-
-@section('title')
-<<<<<<< HEAD
-<<<<<<< HEAD
-Repair.Inch
-=======
-Repair-Inch
->>>>>>> yusuf_1202184304
-=======
-Repair-Inc
->>>>>>> yusuf_1202184304
+@section('title','Repair-Inc')
 @endsection
 
 @section('content')
@@ -21,48 +11,13 @@ Repair-Inc
 					<div class="hero-item">
 						<div class="row align-items-center justify-content-between">
 							<div class="hero-content col">
-<<<<<<< HEAD
-								<h2>Selamat Datang di</h2>
-								<h1><span>Repair.inc</span></h1>
-								<h1>IT’S <span class="big">29%</span> OFF</h1>
-								<a href="#">get it now</a>
-							</div>
-
-							<div class="hero-image col"><img src="assets/images/hero/hero-1.png" alt="Hero Image"></div>
-						</div>     
-					</div>
-
-					<div class="hero-item">
-						<div class="row align-items-center justify-content-between">
-							<div class="hero-content col">
-								<h2>Repair.inc</h2>
-								<h1><span>GL G6</span></h1>
-								<h1>IT’S <span class="big">35%</span> OFF</h1>
-								<a href="#">get it now</a>
-							</div>
-
-							<div class="hero-image col"><img src="assets/images/hero/hero-2.png" alt="Hero Image"></div>
-						</div>     
-					</div>
-
-					<div class="hero-item">
-						<div class="row align-items-center justify-content-between">
-							<div class="hero-content col">
-=======
->>>>>>> yusuf_1202184304
 								<h2>HURRY UP!</h2>
 								<h1><span>REPAIR.INC</span></h1>
 								<h1>IT’S <span class="big">29%</span> OFF</h1>
 								<a href="#">get it now</a>
 							</div>
-<<<<<<< HEAD
-
-							<div class="hero-image col"><img src="assets/images/hero/hero-3.png" alt="Hero Image"></div>
-						</div>     
-=======
 							<div class="hero-image col"><img src="https://i.ibb.co/HgpzYQw/Untitled-2.png" alt="Hero Image"></div>
 						</div>
->>>>>>> yusuf_1202184304
 					</div>
 				</div>
 			</div>

@@ -1,17 +1,6 @@
 @extends('app')
 
-@section('title')
-<<<<<<< HEAD
-<<<<<<< HEAD
-Order History | Repair.Inch
-=======
-Order History | Repair-Inch
->>>>>>> yusuf_1202184304
-=======
-Order History | Repair-Inc
->>>>>>> yusuf_1202184304
-@endsection
-
+@section('title','Order History | Repair-Inc')
 @section('content')
 <div class="page-section section mt-90 mb-90">
     <div class="container mb10">

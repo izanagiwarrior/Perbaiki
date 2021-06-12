@@ -1,17 +1,5 @@
 @extends('app')
-
-@section('title')
-<<<<<<< HEAD
-<<<<<<< HEAD
-Artikel | Repair.Inch
-=======
-Artikel | Repair-Inch
->>>>>>> yusuf_1202184304
-=======
-Artikel | Repair-Inc
->>>>>>> yusuf_1202184304
-@endsection
-
+@section('title','Artikel | Repair-Inc')
 @section('content')
 <div class="product-section section mb-60 mt-60">
 	<div class="container mb10">

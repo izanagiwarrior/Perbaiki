@@ -1,16 +1,6 @@
 @extends('app-dashboard')
 
-@section('title')
-<<<<<<< HEAD
-<<<<<<< HEAD
-Artikel | Repair.Inch
-=======
-Artikel | Repair-Inch
->>>>>>> yusuf_1202184304
-=======
-Artikel | Repair-Inc
->>>>>>> yusuf_1202184304
-@endsection
+@section('title','Artikel | Repair-Inc')
 
 @section('content')
 <div class="page-title mb2">
