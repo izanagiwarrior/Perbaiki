@@ -2,8 +2,6 @@
 
 @section('title','Jasa | Repair-Inc')
 
-@endsection
-
 @section('content')
 <div class="page-title mb2">
 	<h3>Jasa</h3>

@@ -1,6 +1,5 @@
 @extends('app')
 @section('title','Repair-Inc')
-@endsection
 
 @section('content')
 <div class="hero-section section mb-30">
