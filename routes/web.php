@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'HomeController@home')->name('home');
 Route::get('/kategori', 'HomeController@kategori')->name('kategori');
 Route::get('/artikel', 'HomeController@artikel')->name('artikel');
+Route::get('/faq', 'HomeController@faq')->name('faq');
 Route::get('/kategori/{id}', 'HomeController@kategori_detail')->name('kategori.detail');
 Route::get('/jasa/{id}', 'HomeController@jasa_detail')->name('jasa.detail');
 Route::get('/register', 'HomeController@register')->name('home.register')->middleware('guest');

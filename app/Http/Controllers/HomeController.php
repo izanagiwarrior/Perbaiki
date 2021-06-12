@@ -57,6 +57,12 @@ class HomeController extends Controller
 		return view('auth.home.artikel', compact('artikel','kategoris'));
 	}
 
+	public function faq(){
+		$kategoris = Kategori::limit(4)->get();
+
+		return view('auth.home.faq', compact('kategoris'));
+	}
+
 	public function artikel_detail($id){
 		$kategoris = Kategori::limit(4)->get();
 		$artikel = Artikel::where('id', $id)->get();
