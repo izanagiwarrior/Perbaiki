@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Kategori;
 use App\Jasa;
 use App\Artikel;
+use App\Faq;
 
 class HomeController extends Controller
 {
@@ -59,8 +60,9 @@ class HomeController extends Controller
 
 	public function faq(){
 		$kategoris = Kategori::limit(4)->get();
+		$faq = Faq::get();
 
-		return view('auth.home.faq', compact('kategoris'));
+		return view('auth.home.faq', compact('faq', 'kategoris'));
 	}
 
 	public function artikel_detail($id){

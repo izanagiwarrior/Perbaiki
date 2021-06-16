@@ -8,6 +8,7 @@ use App\Customer;
 use App\Mitra;
 use App\Kategori;
 use App\Artikel;
+use App\Faq;
 use App\Jasa;
 
 class AdminController extends Controller
@@ -40,5 +41,10 @@ class AdminController extends Controller
 	public function artikel(){
 		$artikel = Artikel::all();
 		return view('auth.admin.artikel', compact('artikel'));
+	}
+
+	public function faq(){
+		$faq = Faq::all();
+		return view('auth.admin.faq', compact('faq'));
 	}
 }

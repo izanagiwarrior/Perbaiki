@@ -107,7 +107,7 @@ Customer | Repair-Inc
 
 					<div class="form-group">
 						<label for="password">Password</label>
-						<input type="password" class="form-control" id="password" placeholder="Password" name="password" value="">
+						<input type="password" class="form-control" id="password" placeholder="*******" name="password" value="">
 					</div>
 
 					<div class="form-group mb-3">
