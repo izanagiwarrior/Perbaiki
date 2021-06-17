@@ -46,7 +46,7 @@ Admin | Repair-Inc
 						<div class='px-3 py-3 d-flex justify-content-between'>
 							<h3 class='card-title'>Transaksi</h3>
 							<div class="card-right align-items-center">
-								<p>{{ App\Pembayaran::where('status', 'Terbayar')->count() }}</p>
+								<p>{{ App\Pembayaran::all()->count() }}</p>
 							</div>
 						</div>
 					</div>
