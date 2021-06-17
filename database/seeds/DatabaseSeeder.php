@@ -3,6 +3,8 @@
 use Illuminate\Database\Seeder;
 use App\Admin;
 use App\Customer;
+use App\Mitra;
+
 class DatabaseSeeder extends Seeder
 {
     /**
@@ -42,6 +44,27 @@ class DatabaseSeeder extends Seeder
 
         foreach ($admin as $key => $value) {
             Admin::create($value);
+        }
+
+        $mitra = [
+            [
+                'username' => 'mitra',
+                'password' => bcrypt('123456'),
+                'nama' => 'mitra 1',
+                'notelp' => "081234567891",
+                'descPerform' => "Tukang Kayu",
+            ],
+            [
+                'username' => 'mitra2',
+                'password' => bcrypt('123456'),
+                'nama' => 'mitra 2',
+                'notelp' => "081234567891",
+                'descPerform' => "Tukang Sabun",
+            ],
+        ];
+
+        foreach ($mitra as $key => $value) {
+            Mitra::create($value);
         }
     }
 }

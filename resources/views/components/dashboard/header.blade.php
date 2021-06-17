@@ -17,7 +17,7 @@
 					<div class="avatar mr-1">
 						<img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt="" srcset="">
 					</div>
-					<div class="d-none d-md-block d-lg-inline-block">Hi, {{Auth::guard('admin')->user()->username}}</div>
+					<div class="d-none d-md-block d-lg-inline-block">Hi, {{Auth::user()->username}}</div>
 				</a>
 
 				<div class="dropdown-menu dropdown-menu-right">
